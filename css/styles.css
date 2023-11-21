@@ -45,14 +45,14 @@ header {
 }
 
 .nav-links-list-content:hover {
-    color: #4D5AE5;
+    color: #404bbf;
 }
 .nav-links-list-content:focus {
-    color: #4D5AE5;
+    color: #404bbf;
 }
 
 .address-style {
-    font-style: normal
+    font-style: normal;
 }
 
 .address-links-list {
@@ -69,11 +69,11 @@ header {
 }
 
 .address-links-list-content:hover {
-    color: #4D5AE5;
+    color: #404bbf;
 }
 
 .address-links-list-content:focus {
-    color: #4D5AE5;
+    color: #404bbf;
 }
 
 .section-offer {
