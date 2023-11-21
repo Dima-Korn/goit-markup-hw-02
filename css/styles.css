@@ -51,6 +51,10 @@ header {
     color: #404bbf;
 }
 
+.nav-links-list-content:active {
+    color: #404bbf;
+}
+
 .address-style {
     font-style: normal;
 }
