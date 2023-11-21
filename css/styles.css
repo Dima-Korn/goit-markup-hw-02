@@ -15,18 +15,10 @@ header {
         font-weight: 700;
         line-height: 1.17;
         letter-spacing: 0.03em;
-        text-align: left;
         color: #4D5AE5;
         text-decoration: none;
         text-transform: uppercase;
 }
-
-.header-logo:hover,
-.header-logo:active,
-.header-logo:focus {
-    color: #4D5AE5;
-}
-
 
 .logo-header-text {
     font-family: Raleway, sans-serif;
@@ -34,29 +26,34 @@ header {
         font-weight: 700;
         line-height: 21px;
         letter-spacing: 0.03em;
-        text-align: left;
         color: #2E2F42;
         width: 44px; height: 21px;
 }
 
+.nav-list{
+    list-style-type: none;
+}
+
 .nav-links-list-content {
         text-decoration: none;
-        list-style: none;
         font-family: Roboto, sans-serif;
         font-size: 16px;
         font-weight: 500;
         line-height: 24px;
         letter-spacing: 0.02em;
-        text-align: left;
         color: #2E2F42;
 }
 
-.nav-links-list-content:hover,
-.nav-links-list-content:active,
+.nav-links-list-content:hover {
+    color: #4D5AE5;
+}
 .nav-links-list-content:focus {
     color: #4D5AE5;
 }
 
+.address-style {
+    font-style: normal
+}
 
 .address-links-list {
     list-style-type: none;
@@ -67,12 +64,43 @@ header {
         font-weight: 400;
         line-height: 24px;
         letter-spacing: 0.02em;
-        text-align: left;
         color: #434455;
         text-decoration: none;
 }
 
-.address-links-list-content:hover,
+.address-links-list-content:hover {
+    color: #4D5AE5;
+}
+
 .address-links-list-content:focus {
     color: #4D5AE5;
+}
+
+.section-offer {
+    background-color: #2E2F42;
+}
+
+.header1-text {
+    color: #FFFFFF;
+        font-family: Roboto, sans-serif;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 60px;
+        letter-spacing: 0.02em;
+        text-align: center;
+}
+
+.button-style {
+    cursor: pointer;
+     background-color: #4D5AE5;
+     color: #FFFFFF;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.04em;
+        text-align: left;
+}
+
+.button-style:hover {
+    background-color: #404BBF;
 }
