@@ -105,6 +105,7 @@ header {
         text-align: left;
 }
 
-.button-style:hover {
+.button-style:hover,
+.button-style:focus {
     background-color: #404BBF;
 }
